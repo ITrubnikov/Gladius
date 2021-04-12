@@ -82,14 +82,14 @@ lint/tmp/
 # lint/reports/
 
 # Unity
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/Assets/AssetStoreTools*
+Gladius/[Ll]ibrary/
+Gladius/[Tt]emp/
+Gladius/[Oo]bj/
+Gladius/[Bb]uild/
+Gladius/[Bb]uilds/
+Gladius/[Ll]ogs/
+Gladius/[Uu]ser[Ss]ettings/
+Gladius/Assets/AssetStoreTools*
 sysinfo.txt
 
 # Thumbnails
@@ -160,6 +160,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
-Gladius/Library/
 
-Gladius/Temp/

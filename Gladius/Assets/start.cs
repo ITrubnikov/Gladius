@@ -23,6 +23,7 @@ public class start : MonoBehaviour
 
     public void combat(String[] player, String[] enemy)
     {
+        
         for (int i = 0; i < 3; i++)
         {
             Debug.Log("raund: " +  i + "result: " +checkEements(player[i],enemy[i]));

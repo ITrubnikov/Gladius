@@ -48,13 +48,15 @@ public class ElementController : MonoBehaviour, IPointerEnterHandler, IPointerEx
         elementName = element;
       //  Debug.Log("element number: " + elementNumber);
         ImageHealper.sendImageToMainObject(gameObject, EventSystem.current.currentSelectedGameObject);
-        StepController.stepList[1] = "qwert";
+        
+  
+        StepController.pickElement[elementNumber] = elementName;
         // StepController.menuList[2] = "my TEST TESXT2";
         // StepController.menuList[3] = "my TEST TESXT3";
-        Debug.Log("element number: " +  StepController.stepList[0]);
+        Debug.Log("element number: " +  StepController.pickElement[elementNumber]);
      
         //StepController.menuList[1] = elementName;
-        foreach (var VARIABLE in StepController.stepList)
+        foreach (var VARIABLE in StepController.pickElement)
         {
             Debug.Log("VARIABLE number: " +  VARIABLE);
         }

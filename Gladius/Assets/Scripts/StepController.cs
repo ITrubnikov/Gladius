@@ -6,8 +6,7 @@ using UnityEngine;
 
 public static class StepController
 {
-   public static List<String> stepList = new List<String>(3);
-  
-
+   public static String[] pickElement = new String[ 3 ];
+   public static String[] enemyElement = new String[ 3 ];
 
 }
